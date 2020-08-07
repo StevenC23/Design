@@ -1,0 +1,106 @@
+.nav {
+  position: fixed;
+  top: 0;
+}
+
+.nav-div {
+  width: 100vw;
+  height: 8vh;
+  padding: 15px;
+  /* background-color: rgb(236, 201, 199); */
+  background-color: transparent;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  text-decoration: none;
+  letter-spacing: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(236, 201, 199);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.658);
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  border-radius: 5px;
+}
+
+.nav-list {
+  height: 200px;
+  background-color: rgb(236, 201, 199);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 10vh;
+  right: 0;
+  justify-content: space-around;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+  transition: all 0.2s;
+  opacity: 0;
+  pointer-events: none;
+}
+.nav-list-active {
+  top: 8vh;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0 10px;
+  color: white;
+}
+
+.nav-box-menu {
+  transition: all 0.2s;
+}
+.nav-box-menu div {
+  width: 18px;
+  height: 3px;
+  margin-bottom: 3px;
+  background-color: rgb(236, 201, 199);
+}
+.nav-box-menu-active {
+  transform: rotate(-90deg);
+}
+
+/*--------Cuando hay un scroll--------*/
+
+.nav-list-scroll {
+  opacity: 1;
+  flex-direction: row;
+  position: relative;
+  pointer-events: all;
+  width: 90%;
+  height: 5vh;
+  top: 0px;
+  border-radius: 5px;
+  transition: none;
+  box-shadow: 0px 0px 20px white;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+}
+.nav-list-scroll a {
+  font-size: 20px;
+}
+
+.nav-logo-scroll {
+  display: none;
+}
+
+.nav-box-menu-scroll {
+  display: none;
+}
+
+.nav-div-scroll {
+  justify-content: center;
+  background-color: transparent;
+}
