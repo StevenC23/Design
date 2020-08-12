@@ -1,6 +1,7 @@
 import React from "react";
 import "./Designers.css";
 import { DESIGNERS } from "../../source/designers/index";
+import al from "../../source/imgs/aleja.jpg";
 
 const Designers = () => {
   return (
@@ -13,7 +14,7 @@ const Designers = () => {
           {DESIGNERS.map((ds) => (
             <li key={ds.id} className="designers-card">
               <div className="designer-img">
-                <img src="" alt="designer" />
+                <img src={al} alt="designer" className="imagen-designer" />
               </div>
               <div className="data">
                 <a href="/">{ds.nombre}</a>

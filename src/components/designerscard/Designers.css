@@ -50,3 +50,22 @@ a {
 
   scroll-snap-align: center;
 }
+
+.designer-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.designer-img img {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.designers-card .data {
+  display: none;
+}
