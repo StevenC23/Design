@@ -8,15 +8,20 @@ const Designers = () => {
       <div className="designers-title">
         <h2>Diseñadoras</h2>
       </div>
-      <ol className="designers-container-cards">
-        {DESIGNERS.map((ds) => (
-          <li key={ds.id} className="designers-card">
-            <div>
-              <a href="/">{ds.nombre}</a>
-            </div>
-          </li>
-        ))}
-      </ol>
+      <div className="designers-container">
+        <ol className="designers-container-cards">
+          {DESIGNERS.map((ds) => (
+            <li key={ds.id} className="designers-card">
+              <div className="designer-img">
+                <img src="" alt="designer" />
+              </div>
+              <div className="data">
+                <a href="/">{ds.nombre}</a>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
     </section>
   );
 };

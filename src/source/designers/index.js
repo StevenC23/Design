@@ -29,4 +29,9 @@ export const DESIGNERS = [
     nombre: "Laura",
     edad: "19",
   },
+  {
+    id: 7,
+    nombre: "Laura",
+    edad: "19",
+  },
 ];
