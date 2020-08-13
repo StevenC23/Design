@@ -84,7 +84,6 @@
 /*--------Cuando hay un scroll--------*/
 
 .nav-list-scroll {
-  z-index: 100;
   opacity: 1;
   flex-direction: row;
   position: relative;

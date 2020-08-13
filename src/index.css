@@ -14,7 +14,7 @@
 }
 
 section {
-  background-color: #f3dcd4;
+  /* background-color: #f3dcd4; */
 }
 
 .section1 {
@@ -22,13 +22,13 @@ section {
   margin-top: 50px;
   /* padding-top: 8vh; */
   display: flex;
-  background-image: url("./source/imgs/diseño0.png");
+  background-image: url("./source/imgs/diseño.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.section1::before {
+/* .section1::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -36,4 +36,4 @@ section {
   background-repeat: no-repeat;
   background-position-y: 150px;
   background-size: auto;
-}
+} */

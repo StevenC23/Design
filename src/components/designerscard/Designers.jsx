@@ -1,7 +1,7 @@
 import React from "react";
 import "./Designers.css";
 import { DESIGNERS } from "../../source/designers/index";
-import al from "../../source/imgs/aleja.jpg";
+import al from "../../source/imgs/aleja0.png";
 
 const Designers = () => {
   return (
@@ -9,7 +9,6 @@ const Designers = () => {
       <div className="designers-title">
         <h2>Diseñadoras</h2>
       </div>
-
       <ol className="designers-container-cards">
         {DESIGNERS.map((ds) => (
           <li key={ds.id} className="designers-card">

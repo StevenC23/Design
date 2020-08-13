@@ -26,7 +26,9 @@ a {
 .designers-container-cards {
   display: flex;
   margin: 20px;
+  margin-top: 0;
   overflow-x: scroll;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
 }
 
@@ -46,7 +48,7 @@ a {
 }
 
 .designers-card-div .img {
-  height: 80%;
+  height: 85%;
   margin: 10px auto;
   margin-bottom: 0;
   display: flex;
@@ -55,8 +57,8 @@ a {
 }
 
 .designers-card-div .img .designer-img {
-  width: 140px;
-  height: 205px;
+  width: 70%;
+  height: 111%;
   margin: 5px auto;
   border-radius: 15px;
   box-shadow: 0px 0px 20px rgb(255, 255, 255);
@@ -73,40 +75,7 @@ a {
   padding: 2px;
   font-family: montic;
   font-weight: bold;
+  /* transform: translateY(-40px); */
 }
 
 /* --------------hover--------------*/
-
-/* .designers-container-cards {
-  width: 95%;
-  height: 80%;
-  margin: 11% auto;
-  display: flex;
-  justify-content: space-between;
-
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-.designers-card {
-  min-width: 70%;
-  margin: 0 10px;
-  min-height: 100%;
-  border-radius: 20px;
-  padding: 10px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  scroll-snap-align: center;
-}
-
-.designer-img {
-  width: 40%;
-}
-
-.designers-card .data {
-  display: block;
-} */
