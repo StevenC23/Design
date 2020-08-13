@@ -22,50 +22,91 @@ a {
   padding: 10px;
 }
 
-.designers-container {
-  width: 70%;
+/*Card*/
+.designers-container-cards {
+  display: flex;
+  margin: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.designers-card {
+  /* background-color: blanchedalmond; */
+  scroll-snap-align: center;
+}
+
+.designers-card-div {
+  /* background-color: white; */
+  width: 80vw;
+  height: 40vh;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.designers-card-div .img {
+  background-color: white;
+  width: 80%;
   height: 80%;
+  margin: 10px auto;
+  margin-bottom: 0;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.designers-card-div .img .designer-img {
+  width: 140px;
+  height: 190px;
   margin: 10px auto;
 }
 
-.designers-container-cards {
+.designers-card-div .data {
+  background-color: white;
+  margin: 10px;
+  margin-top: 0;
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  border-radius: 10px;
+}
+.designers-card-div .data a {
+  color: black;
+  font-size: 30px;
+  padding: 2px;
+}
+
+/* --------------hover--------------*/
+
+/* .designers-container-cards {
   width: 95%;
   height: 80%;
   margin: 11% auto;
   display: flex;
+  justify-content: space-between;
 
-  /* flex-direction: row; */
 
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
 
-.designers-container-cards .designers-card {
-  min-width: 90%;
+.designers-card {
+  min-width: 70%;
   margin: 0 10px;
   min-height: 100%;
   border-radius: 20px;
   padding: 10px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   scroll-snap-align: center;
 }
 
 .designer-img {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.designer-img img {
-  width: 80%;
-  height: 100%;
-  border-radius: 10px;
-  position: relative;
-  transition: all 0.3s;
+  width: 40%;
 }
 
 .designers-card .data {
-  display: none;
-}
+  display: block;
+} */
