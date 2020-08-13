@@ -36,7 +36,9 @@ a {
 }
 
 .designers-card-div {
-  /* background-color: white; */
+  background-image: url("../../source/imgs/fnd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 80vw;
   height: 40vh;
   margin: 15px;
@@ -44,11 +46,8 @@ a {
 }
 
 .designers-card-div .img {
-  background-color: white;
-  width: 80%;
   height: 80%;
   margin: 10px auto;
-  margin-bottom: 0;
   display: flex;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -58,16 +57,14 @@ a {
   width: 140px;
   height: 190px;
   margin: 10px auto;
+  border-radius: 50%;
 }
 
 .designers-card-div .data {
-  background-color: white;
   margin: 10px;
-  margin-top: 0;
   display: flex;
   margin-top: 0;
   justify-content: center;
-  border-radius: 10px;
 }
 .designers-card-div .data a {
   color: black;
