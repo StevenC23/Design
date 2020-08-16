@@ -1,7 +1,6 @@
 import React from "react";
 import "./Designers.css";
 import { DESIGNERS } from "../../source/designers/index";
-import al from "../../source/imgs/aleja0.png";
 
 const Designers = () => {
   return (
@@ -14,7 +13,11 @@ const Designers = () => {
           <li key={ds.id} className="designers-card">
             <div className="designers-card-div">
               <div className="img">
-                <img src={al} alt="designer-img" className="designer-img" />
+                <img
+                  src={ds.foto}
+                  alt="designer-img"
+                  className="designer-img"
+                />
               </div>
 
               <div className="data">
