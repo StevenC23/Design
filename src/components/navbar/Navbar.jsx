@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <div className="nav-div">
-        <a href="/" className="nav-logo">
+        <a href="/" className="nav-logo" translate="no">
           Design
         </a>
         <ol className="nav-list">

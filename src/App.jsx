@@ -7,6 +7,13 @@ import Navbar from "./components/navbar/index";
 function App() {
   return (
     <>
+      <div className="pre-loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <header>
         <Navbar />
         <div className="section1"></div>
