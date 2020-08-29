@@ -19,3 +19,27 @@ document.addEventListener("DOMContentLoaded", function () {
     navdiv.classList.toggle("nav-div-scroll", window.scrollY > 0);
   });
 });
+
+setTimeout(() => {
+  var navboxmenu = document.querySelector(".nav-box-menu");
+  navboxmenu.style.opacity = "1";
+  var navlogo = document.querySelector(".nav-logo");
+  navlogo.style.opacity = "1";
+  var preloader = document.querySelector(".pre-loader");
+  preloader.style.visibility = "hidden";
+  preloader.style.opacity = "0";
+  preloader.style.display = "none";
+  var body = document.querySelector("body");
+  body.style.overflowY = "auto";
+}, 1500);
+
+// window.onload = function () {
+//   var navboxmenu = document.querySelector(".nav-box-menu");
+//   navboxmenu.style.opacity = "1";
+//   var navlogo = document.querySelector(".nav-logo");
+//   navlogo.style.opacity = "1";
+//   var preloader = document.querySelector(".pre-loader");
+//   preloader.style.visibility = "hidden";
+//   preloader.style.opacity = "0";
+//   preloader.style.display = "none";
+// };

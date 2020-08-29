@@ -8,6 +8,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-y: hidden;
+}
 
 .usb {
   height: 100vh;
@@ -53,13 +56,16 @@
 .pre-loader {
   width: 100%;
   height: 100vh;
-  background-color: blue;
+  top: 0;
+  left: 0;
+  background-color: white;
+  position: absolute;
 }
 
 .pre-loader span {
   height: 1.5em;
   width: 1.5em;
-  background: white;
+  background: rgb(236, 201, 199);
   position: absolute;
   left: 0;
   top: 0;

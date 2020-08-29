@@ -30,6 +30,12 @@
   background-color: rgb(236, 201, 199);
   /* border: 1px solid rgba(0, 0, 0, 0.342); */
   border-radius: 5px;
+
+  opacity: 0;
+}
+
+.nav-logo-pre {
+  opacity: 1;
 }
 
 .nav-list {
@@ -70,7 +76,14 @@
 
 .nav-box-menu {
   transition: all 0.2s;
+
+  opacity: 0;
 }
+
+.nav-box-menu-pre {
+  opacity: 1;
+}
+
 .nav-box-menu div {
   width: 18px;
   height: 3px;
